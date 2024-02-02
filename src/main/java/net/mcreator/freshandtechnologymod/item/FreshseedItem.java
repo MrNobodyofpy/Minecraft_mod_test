@@ -13,7 +13,7 @@ import java.util.List;
 
 public class FreshseedItem extends Item {
 	public FreshseedItem() {
-		super(new Item.Properties().stacksTo(8).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().stacksTo(8).rarity(Rarity.RARE));
 	}
 
 	@Override

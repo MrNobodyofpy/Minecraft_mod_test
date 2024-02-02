@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.freshandtechnologymod.init.FreshAndTechnologyModModTabs;
 import net.mcreator.freshandtechnologymod.init.FreshAndTechnologyModModItems;
 
 import java.util.function.Supplier;
@@ -50,6 +51,8 @@ public class FreshAndTechnologyModMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		FreshAndTechnologyModModItems.REGISTRY.register(bus);
+
+		FreshAndTechnologyModModTabs.REGISTRY.register(bus);
 
 	}
 
